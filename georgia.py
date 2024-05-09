@@ -11,7 +11,7 @@ from nltk.corpus import stopwords
 import requests
 import google.generativeai as genai
 
-genai.configure(api_key="AIzaSyDXm87eHQIBRuQY_bSD5a5B6hjoIqdB4fM")
+genai.configure(api_key="YOUR_GOOGLE_API")
 
 # Set up the model
 generation_config = {
